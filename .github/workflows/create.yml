@@ -41,7 +41,7 @@ jobs:
       - name: terraform init
         run: terraform init --input=false
 
-      #- name: terraform format
+      #-name: terraform format
        # run: terraform fmt -check
 
       - name: terraform validate
